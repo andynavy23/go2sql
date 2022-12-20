@@ -12,6 +12,8 @@ go mod init go2sql-demo
 ```go
 go get github.com/andynavy23/go2sql@v0.1.0
 ```
+
+#### main.go
 ```go
 package main
 
@@ -31,6 +33,8 @@ func main() {
     fmt.Println(sqlQuery.ToSql())
 }
 ```
+
+#### Console output
 ```console
 SELECT
   col_a,
